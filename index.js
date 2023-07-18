@@ -1,7 +1,7 @@
 import express from 'express'
-import ConnectDB from './db/mongoose.js'
-import userRouter from './routers/user.js'
-import taskRouter from './routers/task.js'
+import ConnectDB from '../src/db/mongoose.js'
+import userRouter from './src/routers/user.js'
+import taskRouter from './src/routers/task.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
